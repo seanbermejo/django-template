@@ -1,9 +1,9 @@
-* Django-Environ template
+# Django-Environ template
 
 This template creates a simple template structure with django-environ. 
 
+## Structure
 
-** Structure **
 ```
 - config/
  - settings/
@@ -14,9 +14,9 @@ This template creates a simple template structure with django-environ.
  - urls.py
  - wsgi.py
 - manage.py
-``**
+```
 
-** Installation **
+## Installation
 
 ```
 $ django-admin startproject project --template django-environ-structure
