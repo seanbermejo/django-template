@@ -1,0 +1,29 @@
+[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
+
+[packages]
+django = "*"
+django-split-settings = "*"
+django-environ = "*"
+django-filter = "*"
+django-mysql = "*"
+mysqlclient = "*"
+
+[dev-packages]
+"flake8" = "*"
+autoflake = "*"
+bpython = "*"
+epc = "*"
+importmagic = "*"
+ipdb = "*"
+ipython = "*"
+pyls-black = "*"
+pyls-isort = "*"
