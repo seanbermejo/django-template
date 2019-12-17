@@ -19,5 +19,5 @@ This template creates a simple template structure with django-environ.
 ## Installation
 
 ```
-$ django-admin startproject project --template django-environ-structure
+$ django-admin startproject project --template https://github.com/seanbermejo/django-environ-template/tarball/master
 ```
