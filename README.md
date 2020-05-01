@@ -1,6 +1,6 @@
-# Django-Environ template
+# Django template
 
-This template creates a simple template structure with django-environ. 
+This template creates a simple template structure with django and npm.
 
 ## Structure
 
@@ -46,16 +46,10 @@ ALLOWED_HOSTS=*
 DEBUG=False
 ```
 
-## Initialize package.json
-
-```
-$ npm init
-```
-
 ## Create app on projects
 
 There's a template for creating app inside `project_name` directory.
 ```
 $ cd <project_name>
-$ django-admin startapp <your_app> --template=app_template.tgz
+$ django-admin startapp my_app
 ```
