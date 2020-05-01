@@ -20,12 +20,16 @@ django-environ-template
 │   │   ├── __init__.py
 │   │   ├── base.py
 │   │   └── platform
-│   │       └── local.py
+│   │       ├── dev.py
+│   │       ├── local.py
+│   │       └── prod.py
 │   ├── urls.py
 │   └── wsgi.py
 ├── manage.py
-└── webpack.config.js
-```
+├── package.json
+├── project_name
+│   └── __init__.py
+└── webpack.config.js```
 
 ## Installation
 
@@ -56,7 +60,7 @@ $ django-admin startapp my_app
 from django.apps import AppConfig
 
 class MyAppConfig(AppConfig):
-    name = "<project_name>.consumer"
+    name = "<project_name>.my_app"
 ```
 
 ## Install packages
