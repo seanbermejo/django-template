@@ -35,7 +35,9 @@ django-environ-template
 ## Installation
 
 ```
-$ django-admin startproject project --template https://github.com/seanbermejo/django-environ-template/tarball/master --extension=py,json
+$ django-admin startproject <project_name> \
+    --template https://github.com/seanbermejo/django-environ-template/tarball/master \
+    --extension=py,json
 $ cd project
 $ pipenv install
 ```
