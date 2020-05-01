@@ -71,3 +71,10 @@ class MyAppConfig(AppConfig):
 $ pipenv install
 $ npm i
 ```
+
+
+## Start server
+
+```
+$ python manage.py runserver
+```
