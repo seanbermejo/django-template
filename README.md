@@ -29,7 +29,8 @@ django-environ-template
 ├── package.json
 ├── project_name
 │   └── __init__.py
-└── webpack.config.js```
+└── webpack.config.js
+```
 
 ## Installation
 
