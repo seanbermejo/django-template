@@ -51,6 +51,12 @@ DEBUG=False
 ```
 $ cd <project_name>
 $ django-admin startapp my_app
+# modify `my_app/apps.py`
+# add the <project_name>
+from django.apps import AppConfig
+
+class MyAppConfig(AppConfig):
+    name = "<project_name>.consumer"
 ```
 
 ## Install packages
