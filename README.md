@@ -46,10 +46,16 @@ ALLOWED_HOSTS=*
 DEBUG=False
 ```
 
-## Create app on projects
+## Create app on project
 
-There's a template for creating app inside `project_name` directory.
 ```
 $ cd <project_name>
 $ django-admin startapp my_app
+```
+
+## Install packages
+
+```
+$ pipenv install
+$ npm i
 ```
