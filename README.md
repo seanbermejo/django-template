@@ -55,8 +55,9 @@ DEBUG=False
 ```
 $ cd <project_name>
 $ django-admin startapp my_app
-# modify `my_app/apps.py`
+# modify 'my_app/apps.py'
 # add the <project_name>
+$ vi my_app/apps.py
 from django.apps import AppConfig
 
 class MyAppConfig(AppConfig):
