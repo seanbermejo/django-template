@@ -1,2 +1,13 @@
 .DS_Store
+.env
 *.pyc
+*.sqlite3
+.vscode
+.mypy*
+.coverage
+static
+node_modules
+.npm/
+assets/dist
+assets/reverse.js
+media
