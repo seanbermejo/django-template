@@ -5,7 +5,7 @@ This template creates a simple template structure with django and npm.
 ## Structure
 
 ```
-django-environ-template
+django-template
 ├── Pipfile
 ├── README.md
 ├── assets
