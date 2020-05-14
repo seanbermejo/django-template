@@ -1,5 +1,4 @@
-# Include production specific settings here
-DEBUG = False
+DEBUG = True
 
 if env.str("DATABASE_URL", ""):
     DATABASES = {
