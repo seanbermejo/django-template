@@ -5,7 +5,7 @@ This template creates a simple template structure with django and npm.
 ## Structure
 
 ```
-django-environ-template
+django-template
 ├── Pipfile
 ├── README.md
 ├── assets
@@ -35,8 +35,10 @@ django-environ-template
 ## Installation
 
 ```
-$ django-admin startproject project --template https://github.com/seanbermejo/django-environ-template/tarball/master --extension=py,json
-$ cd project
+$ django-admin startproject <project_name> \
+    --template https://github.com/seanbermejo/django-template.git \
+    --extension=py,json
+$ cd <project_name>
 $ pipenv install
 ```
 
@@ -54,6 +56,7 @@ DEBUG=False
 ## Create app on project
 
 ```
+# Inside the project directory <project_name>
 $ cd <project_name>
 $ django-admin startapp my_app
 # modify 'my_app/apps.py'
