@@ -36,7 +36,7 @@ django-template
 
 ```
 $ django-admin startproject <project_name> \
-    --template https://github.com/seanbermejo/django-template.git \
+    --template https://github.com/seanbermejo/django-template/archive/master.tar.gz \
     --extension=py,json
 $ cd <project_name>
 $ pipenv install
