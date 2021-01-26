@@ -1,5 +1,7 @@
 [tool.poetry]
 name = "project_name"
+description = "My project"
+authors = ["john.doe"]
 version = "0.0.1"
 
 [tool.poetry.dependencies]
