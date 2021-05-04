@@ -1,6 +1,6 @@
 # Django template
 
-This template creates a simple template structure with django and npm.
+This template creates a simple template structure with django.
 
 ## Structure
 
@@ -39,7 +39,7 @@ $ django-admin startproject <project_name> \
     --template https://github.com/seanbermejo/django-template/archive/master.tar.gz \
     --extension=py,json
 $ cd <project_name>
-$ pipenv install
+$ poetry install
 ```
 
 ## Configuration
